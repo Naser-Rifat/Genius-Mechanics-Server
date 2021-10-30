@@ -72,6 +72,7 @@ run().catch(console.dir)
 
 app.get('/', (req, res) => {
     console.log("hit the server");
+    res.send(" server running")
 })
 
 app.listen(port, () => {
